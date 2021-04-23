@@ -31,7 +31,7 @@ body {
     
 }
 #temp_now{
- right: 93vh;
+ right: 95vh;
  position: fixed;
  margin: -105px;
  top: 0vh;
@@ -39,12 +39,11 @@ body {
  
 }
 #feels_like{
-    right: 88vh;
+    left: -75vh;
     top: 35vh;
     position: fixed;
     margin: -105px;
     text-align: center;
-    white-space: nowrap;
 }
 #temp_max{
     position: fixed;
@@ -86,21 +85,14 @@ body {
     position: absolute;
     top: 7vh;
     left:7vh;
-    outline: none;
-    
-}
-#btn_submit:active {
-    transform: scale(0.98);
-    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 #wind_speed{
     position: absolute;
-    top: 380px;
-    left: 140px;
+    top: 350px;
+    left: 120px;
     transform:translate(-50%, -50%);
     text-align: center;
-    white-space: nowrap;
-    
+    align-items: center;
     
 }
 #description {
@@ -124,7 +116,6 @@ body {
     transform:translate(-50%, -50%);
     top: 7vh;
     size: 45px;
-    
 }
 #celsius{
     background-color: rgb(15, 182, 29);
@@ -137,12 +128,6 @@ body {
     position: absolute;
     top:-15vh;
     left:-0vh;
-    outline: none;
-
-}
-#celsius:active {
-    transform: scale(0.98);
-    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 #farenheit{
     background-color: rgb(167, 22, 22);
@@ -155,11 +140,6 @@ body {
     position: absolute;
     top:-15vh;
     left:-14vh;
-    outline: none;
-}
-#farenheit:active {
-    transform: scale(0.98);
-    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
 .atmosphere{
     
@@ -189,8 +169,8 @@ body {
 #wind{
     position: absolute;
     align-items: center;
-    left: 90px;
-    top: 220px;
+    right:-20px;
+    top: 290px;
 }
 #feels{
     position: fixed;
